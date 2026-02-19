@@ -1,35 +1,33 @@
 /*Style Guide*/
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
-    font-style: normal;
-    font-display: swap;
-
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
-    /* criando variaveis de cores de fundo */
-    --background-primery-color: #ffffff;
-    --background-secundary-color: #f5f5f5;
-    --background-tertiary-color: #000000;
+  /* criando variaveis de cores de fundo */
+  --background-primery-color: #ffffff;
+  --background-secundary-color: #f5f5f5;
+  --background-tertiary-color: #000000;
 
-    /* criando variaveis de cores para os botões */
-    --button-primery-color: #8f0101;
-    --button-secundary-color: #B91515;
+  /* criando variaveis de cores para os botões */
+  --button-primery-color: #8f0101;
+  --button-secundary-color: #b91515;
 
-    /* Criando variaveis para fontes */
-    --font-family: 'Montserrat', sans-serif;
-    --text-primary-color: #222222;
-    --text-secondary-color: #ffffff;
-    --titles-width: 700;
-    --text-width: 400;
-    --menu-text-width: 500;
+  /* Criando variaveis para fontes */
+  --font-family: "Montserrat", sans-serif;
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
+  --titles-width: 700;
+  --text-width: 400;
+  --menu-text-width: 500;
 }
-
