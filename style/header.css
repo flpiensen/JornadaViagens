@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
+  background-color: var(--background-tertiary-color);
+}
+
+.logo_home {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+.text_menu {
+  display: none;
+}
+
+.menu_nav {
+  width: 32px;
+  height: 32px;
+  margin-top: 38px;
+}
